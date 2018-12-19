@@ -1,0 +1,83 @@
+{
+	"BaseURL" 			: "http://192.168.1.54/rosyeg",
+	"UserName" 			: "rosaline",         
+	"Password" 			: "rosaline1234",
+	"BusinessContextName" : "BC1",
+	
+	
+	"LevelNames" : [
+					{"First Level": [
+						{"PlantTreeStructure" :["ActivPlant","Activplant","Plant C","Asset E16","Events","Event Test"],
+						 "EventToClick":["Current Rack Count"]
+						},
+						{"PlantTreeStructure" :["Plant B","Asset A2","Events","Events A"],
+						 "EventToClick":["Rack Count"]
+						}
+					  ],
+					  "Second Level":[
+						 {"PlantTreeStructure" :["Plant B","Asset A2","Machine Faults","Copy of Fault state 10_10"],
+						 "EventToClick":["Current Rack Count"]
+						},
+						  {"PlantTreeStructure" :["Plant D","Asset B2","Machine Faults"],
+						 "EventToClick":["Copy of Fault state 10"]
+						}
+						  
+					 ]
+							 
+					}
+				  ],
+	"PlantRenames" 		:[{"First Level" :	["CRC","RC"],
+					 		"Second Level" :   ["Rename ET","currnt"]
+						 }],
+		
+	"BusinessContextNameSelected" : "BC1",
+	"DuplicateBusinessContextName" : "freshmax",
+	"NullLevelMessage" : "Enter a valid  name.",
+	"LevelNullCheck" : "First Level",
+	"enteringNullValue" : [{"": ["Cookies.Data:RSLE:L1.@CLXMaxScanTime", "Cookies.Data:RSLE:L1.@CLXPresentScanTime"],
+							     "2nd Level": ["Cookies.Data:RSLE:L1.@IsPresent","Cookies.Data:RSLE:L1.@Mode"]
+						       }],
+	
+	
+	"SameItemRenameCheck" : "scanmodel",
+	
+	"RenameValidation" : [{"First Level" :	["CRC","RC"],
+					      "Second Level" :   ["Rename ET"]
+					     }],
+	
+	
+	"SameBusinessContextNameMessage" : "Business Context name already exists.",
+	
+	"keyValueforAddLevel" : "LevelNames",
+	"keyValueforRenamePlantItem" : "PlantRenames",
+	"keyValueforValidation" : "RenameValidation",
+	
+	
+	"renameNegativeTest" : "RC",
+	"levelUnderWhichPlantitemAdded" : "First Level",
+	"enterRenameValue" : "CRC",
+	"enterSpecialCharacters" : "@#$%^&",
+	"DuplicateItemName" : "Cookies.Data:RSLE:L1.@CLXPresentScanTime",
+	"MaximumCharactersInRenaming" : "Some software testing tasks such as extensive low level interface regression testing"
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
